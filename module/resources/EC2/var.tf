@@ -5,11 +5,9 @@ variable "ami_id" {
 variable "instance_type" {
     type = string
 }
- variable "vpc_security_group_ids" {
-    type = string
-    default = "sg-0c78535db3865697a"
-   
- }
+ #variable "vpc_security_group_ids" {
+    #type = string 
+#}
   #variable "ec2_vpc_id" {
     #type = string
     
